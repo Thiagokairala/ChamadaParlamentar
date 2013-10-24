@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
 
-import dao.EstatisticaDao;
+import br.com.MDSGPP.ChamadaParlamentar.dao.EstatisticaDao;
 
 public class TesteEstatisticaDao {
 

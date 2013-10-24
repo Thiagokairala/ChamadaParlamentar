@@ -3,9 +3,10 @@ package Testes;
 import java.util.ArrayList;
 
 import junit.framework.TestCase;
-import model.SessoesEReunioes;
 
 import org.junit.Test;
+
+import br.com.MDSGPP.ChamadaParlamentar.model.SessoesEReunioes;
 
 public class TesteSessoesEReunioes extends TestCase {
 	SessoesEReunioes sessoes = new SessoesEReunioes();

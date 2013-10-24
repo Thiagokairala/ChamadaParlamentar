@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import org.junit.Before;
 import org.junit.Test;
 
-import dao.ConnectionFactory;
+import br.com.MDSGPP.ChamadaParlamentar.dao.ConnectionFactory;
 
 public class TesteConnectionFactory {
 

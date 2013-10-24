@@ -5,7 +5,7 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.Before;
 import org.junit.Test;
 
-import dao.DeputadoDao;
+import br.com.MDSGPP.ChamadaParlamentar.dao.DeputadoDao;
 
 public class TesteDeputadoDao {
 
