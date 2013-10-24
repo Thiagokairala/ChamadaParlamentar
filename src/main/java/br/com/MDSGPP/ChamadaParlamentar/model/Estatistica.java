@@ -9,7 +9,7 @@ public class Estatistica {
 	private String NumeroSessao;
 	private String TotalSessao;
 	private String porcentagem;
-	private List<String> Lista = new ArrayList<String>(); 
+	private ArrayList<String> Lista = new ArrayList<String>(); 
 
 //construtor
 	
@@ -50,11 +50,11 @@ public class Estatistica {
 		this.porcentagem = porcentagem;
 	}
 
-	public List<String> getLista() {
+	public ArrayList<String> getLista() {
 		return Lista;
 	}
 
-	public void setLista(List<String> lista) {
+	public void setLista(ArrayList<String> lista) {
 		Lista = lista;
 	}
 	

@@ -5,6 +5,7 @@ import java.text.DecimalFormat;
 
 import br.com.MDSGPP.ChamadaParlamentar.dao.EstatisticaDao;
 import br.com.MDSGPP.ChamadaParlamentar.dao.SessoesEReunioesDao;
+import br.com.MDSGPP.ChamadaParlamentar.exception.ValidaDadosWS;
 import br.com.MDSGPP.ChamadaParlamentar.model.Estatistica;
 
 public class EstatisticaControl {
@@ -26,7 +27,7 @@ public class EstatisticaControl {
 			estatistica.setNome(nome);
 			
 			
-			if(estatistica.getLista().size() != 0) {
+			if(ValidaDadosWS.validaLista(estatistica.getLista())) {
 			estatistica.setNumeroSessao(Integer.toString(estatistica.getLista().size()));
 			
 			DecimalFormat df = new DecimalFormat("###.00");  
