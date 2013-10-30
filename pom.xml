@@ -47,10 +47,10 @@
   </dependency>
             
    <dependency>
-	<groupId>org.codehaus.mojo</groupId>
+	<groupId>org.codehaus.sonar</groupId>
 	<artifactId>sonar-maven3-plugin</artifactId>
 	<version>3.7</version>
-   </dependency>
+</dependency>
     
   </dependencies>
   
