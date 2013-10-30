@@ -74,8 +74,7 @@
         <groupId>org.openqa.selenium.webdriver</groupId>
         <artifactId>webdriver-firefox</artifactId>
         <version>0.5.484</version>
-        <scope>test</scope>
-        </dependency>
+   </dependency>
     
   </dependencies>
   
