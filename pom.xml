@@ -15,15 +15,6 @@
   </properties>
 
   <dependencies>
-<<<<<<< HEAD
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.0</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-=======
    
      <dependency>
 	<groupId>junit</groupId>
@@ -79,9 +70,12 @@
         <version>2.37.1</version>
     </dependency>  
             
+   <dependency>
+     <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium</artifactId>
+     <version>2.0b3</version>
+  </dependency>
     
   </dependencies>
   
-  
->>>>>>> 0d8502447a8d2c9de999c81445bdc52494039b55
 </project>
