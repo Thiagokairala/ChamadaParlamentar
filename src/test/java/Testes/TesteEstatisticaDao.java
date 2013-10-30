@@ -21,7 +21,7 @@ public class TesteEstatisticaDao {
 	@Test
 	public void test() throws SQLException {
 
-		assertTrue(esta.getEstatisticaDeputados().size() == 100);
+		assertTrue(esta.getEstatisticaDeputados(null).size() == 100);
 	}
 
 }
