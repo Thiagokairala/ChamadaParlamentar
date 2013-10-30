@@ -16,7 +16,7 @@ public class TesteDeputadoDao {
 	}
 	
 	//Testando a instância
-	@Test
+	//@Test
 	public void test() {
 		assertNotNull(depu);
 	}
