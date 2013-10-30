@@ -50,8 +50,19 @@
 	<groupId>org.codehaus.mojo</groupId>
 	<artifactId>sonar-maven-plugin</artifactId>
 	<version>2.1</version>
-</dependency>
+  </dependency>
             
+    <dependency>
+	<groupId>org.seleniumhq.selenium</groupId>
+	<artifactId>selenium-java</artifactId>
+	<version>2.35.0</version>
+   </dependency>
+   
+   <dependency>
+	<groupId>org.seleniumhq.selenium</groupId>
+	<artifactId>selenium-server</artifactId>
+	<version>2.35.0</version>
+  </dependency>
     
   </dependencies>
   
