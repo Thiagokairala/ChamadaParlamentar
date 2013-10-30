@@ -56,9 +56,6 @@ public class DeputadoDao {
 		stmt.close();	
 	}
 
-
-	
-
 	public ArrayList<String> getNomesDeputados() throws SQLException {
 		String sql = "Select * from deputado"; 
 
@@ -105,12 +102,19 @@ public class DeputadoDao {
 	}
 
 	public Deputados receberDadosDeputado(String nome) {
+<<<<<<< HEAD
 		String sql = "select * from deputado where nomeCivil = ?";
+=======
+		String sql = "select * from deputado where nomeCivil = "+ nome;
+>>>>>>> 0d8502447a8d2c9de999c81445bdc52494039b55
 
 		PreparedStatement stmt;
 		try {
 			stmt = this.conexao.prepareStatement(sql);
+<<<<<<< HEAD
 			stmt.setString(1, nome);
+=======
+>>>>>>> 0d8502447a8d2c9de999c81445bdc52494039b55
 			ResultSet rs = stmt.executeQuery();
 
 			Deputados deputado = new Deputados(rs.getInt("idParlamentar"), rs.getInt("matricula"),

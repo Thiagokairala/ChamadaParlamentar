@@ -16,7 +16,7 @@ public class ConnectionFactory {
 	    try {
 	         return DriverManager.getConnection(
 	 "jdbc:mysql://localhost/projetoMDS", "root", "12345");
-	         
+
 	     } catch (SQLException e) {
 	         throw new RuntimeException(e);
 	     }

@@ -1,10 +1,10 @@
 package br.com.MDSGPP.ChamadaParlamentar.control;
 
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 
 import br.com.MDSGPP.ChamadaParlamentar.dao.DeputadoDao;
-
 
 public class DeputadosControl {
 
